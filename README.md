@@ -6,4 +6,4 @@ This is a collection of my solutions for puzzles in the Zachtronics game [Exa Pu
 
 All of these solutions were done by me with no hints and as such are not the most performant -- which is part of the fun in my opinion. 
 
-It took me around 60 hours to xwbeat all the puzzles over the course of around a year coming back from time to time. This game kicked my ass and I love it for that!
+It took me around 60 hours to beat all the puzzles over the course of around a year coming back from time to time. This game kicked my ass and I love it for that!
