@@ -1,0 +1,45 @@
+ _____________________
+|         XA          |
+LINK 800
+
+GRAB 210
+LINK 867
+DROP
+LINK -1
+
+GRAB 211
+LINK 828
+HALT
+|_____________________|
+
+ _____________________
+|         XB          |
+LINK 800
+REPL NAVCH28
+LINK 867
+
+MARK DELF
+REPL DEL230
+REPL DEL231
+JUMP DEL265
+
+MARK NAVCH28
+LINK 828
+JUMP DELF
+
+MARK DEL230
+GRAB 230
+JUMP DRP
+
+MARK DEL231
+GRAB 231
+JUMP DRP
+
+MARK DEL265
+GRAB 265
+JUMP DRP
+
+MARK DRP
+LINK -1
+DROP
+|_____________________|

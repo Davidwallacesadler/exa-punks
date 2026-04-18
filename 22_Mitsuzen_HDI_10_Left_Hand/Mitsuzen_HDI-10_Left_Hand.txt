@@ -1,0 +1,35 @@
+ _____________________
+|         XA          |
+LINK 800
+
+@REP 4
+LINK 3
+@END
+
+MARK HND
+COPY #NERV T
+LINK -3
+COPY #NERV X
+
+@REP 7
+LINK -3
+@END
+
+COPY T #NERV
+LINK 3
+COPY X #NERV
+LINK 3
+
+COPY #NERV X
+
+@REP 4
+LINK 3
+@END
+
+COPY X #NERV
+
+@REP 2
+LINK 3
+@END
+JUMP HND
+|_____________________|

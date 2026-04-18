@@ -1,0 +1,26 @@
+ _____________________
+|         XA          |
+LINK 800
+GRAB 200
+COPY F M
+WIPE
+HALT
+|_____________________|
+
+
+ _____________________
+|         XB          |
+MAKE
+COPY M X
+MARK LOOP
+COPY X F
+SUBI X 1 X
+TEST X = -1
+FJMP LOOP
+LINK 800
+LINK 800
+DROP
+HALT
+|_____________________|
+
+

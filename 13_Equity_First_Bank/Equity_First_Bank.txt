@@ -1,0 +1,24 @@
+ _____________________
+|         XA          |
+LINK 800
+LINK 800
+LINK 800
+
+COPY 800 X
+MARK REPLLOOP
+REPL NAV
+ADDI X 1 X
+TEST X = 806
+TJMP NAV
+FJMP REPLLOOP
+
+MARK NAV
+LINK X
+
+MARK LOOP
+COPY 20 #DISP
+TEST #CASH = 0
+FJMP LOOP
+
+HALT
+|_____________________|

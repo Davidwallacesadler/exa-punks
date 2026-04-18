@@ -1,0 +1,16 @@
+ _____________________
+|         XA          |
+LINK 800
+COPY 1 #CTRL
+COPY 7 X
+NOOP
+NOOP
+
+MARK GORIGHT
+LINK 800
+KILL
+COPY 1 #CTRL
+SUBI X 1 X
+TEST X = 0
+FJMP GORIGHT
+|_____________________|

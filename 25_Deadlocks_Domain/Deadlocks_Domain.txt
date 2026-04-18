@@ -1,0 +1,37 @@
+ _____________________
+|         XA          |
+LINK 800
+LINK 802
+LINK 799
+KILL
+KILL
+|_____________________|
+
+
+ _____________________
+|         XB          |
+LINK 800
+
+MARK LOOP
+REPL TNAV
+REPL MNAV
+REPL BNAV
+JUMP LOOP
+
+MARK TNAV
+LINK 800
+JUMP GTFLE
+
+MARK MNAV
+LINK 801
+JUMP GTFLE
+
+MARK BNAV
+LINK 802
+
+MARK GTFLE
+GRAB #FILE
+LINK -1
+LINK -1
+DROP
+|_____________________|

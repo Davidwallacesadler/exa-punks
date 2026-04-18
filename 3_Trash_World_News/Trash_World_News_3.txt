@@ -1,0 +1,23 @@
+ _____________________
+|         XA          |
+LINK 800
+LINK 799
+GRAB 199
+COPY F X
+COPY F M
+COPY X M
+WIPE
+HALT
+|_____________________|
+
+
+ _____________________
+|         XB          |
+MAKE
+COPY M F
+COPY M F
+LINK 800
+LINK 800
+DROP
+HALT
+|_____________________|

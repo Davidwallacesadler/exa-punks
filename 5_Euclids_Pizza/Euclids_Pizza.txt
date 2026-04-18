@@ -1,0 +1,26 @@
+ _____________________
+|         XA          |
+GRAB 300
+COPY 5 X
+MARK LOOP
+COPY F M
+SUBI X 1 X
+TEST X = 0
+FJMP LOOP
+HALT
+|_____________________|
+
+ _____________________
+|         XB          |
+LINK 800
+GRAB 200
+COPY 5 X
+SEEK 9999
+MARK LOOP
+COPY M F
+SUBI X 1 X
+TEST X = 0
+FJMP LOOP
+DROP
+HALT
+|_____________________|
