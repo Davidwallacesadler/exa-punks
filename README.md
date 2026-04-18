@@ -3,7 +3,7 @@
 ![A gif showing an example solution](./33_Mitsuzen_HDI_10_Visual_Cortex/EXAPUNKS%20-%20Mitsuzen%20HDI-10%20(2103,%2044,%20303,%202026-04-18-11-53-41).gif)
 
 ## Overview
-This is a collection of puzzle solutions for the Zachtronics game [EXAPUNKS](https://store.steampowered.com/app/716490/EXAPUNKS/). The goal for this repo is to  host these solutions in `.txt` files so that content can be easily referrenced and copied. Each folder contains the solution `.txt` along with a `.gif` of the solution in action.
+This is a collection of puzzle solutions for the Zachtronics game [EXAPUNKS](https://store.steampowered.com/app/716490/EXAPUNKS/) where you program robots to hack into systems using an assembly-like language. The goal for this repo is to  host these puzzle solutions in `.txt` files so that content can be easily referrenced and copied. Each folder contains the solution `.txt` along with a `.gif` of the solution in action.
 
 ## Solutions
 - [1. Trash World News](./1_Trash_World_News/)
